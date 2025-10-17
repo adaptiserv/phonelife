@@ -1,5 +1,4 @@
 import { ArrowRight } from "lucide-react";
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -31,10 +30,10 @@ interface HeroProps {
 
 export default function Hero({
   tagline = "Latest Updates",
-  heading = "Blog Posts",
-  description = "Discover the latest trends, tips, and best practices in modern web development. From UI components to design systems, stay updated with our expert insights.",
-  buttonText = "View all articles",
-  buttonUrl = "https://shadcnblocks.com",
+  heading = "PhoneLife",
+  description = "Tous les accessoires ",
+  buttonText = "Voir tous les articles",
+  buttonUrl = "/articles",
   posts = [
     {
       id: "post-1",
